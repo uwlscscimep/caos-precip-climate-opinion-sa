@@ -7,7 +7,7 @@ This study involves secondary analysis of public opinion data that has been supp
 1. The public opinion data used for this project comes from a nationally-representative survey conducted in 2016 by the American National Election Studies (ANES). It can be freely downloaded at this URL: [https://electionstudies.org/data-center/2016-time-series-study/](https://electionstudies.org/data-center/2016-time-series-study/). 
 
 2. The climate data, which were compiled by researchers at the University of Wisconsin – Madison (the authors of this text) are disclosed freely on this GitHub repository. The name of this file is “climate-data-supplement-for-merge-2106.csv.”
-  - Researchers who wish to fully recreate the climate data supplement can do so by following the instructions outlined in the “Reproduce the climate supplement” section (see below).
+  -- Researchers who wish to fully recreate the climate data supplement can do so by following the instructions outlined in the “Reproduce the climate supplement” section (see below).
 
 3. The “key” to merge the public opinion data and the climate data. In order to merge the first two components together, researchers will need access to the ANES “2016 restricted geocodes” file, which is available by application: [https://www.icpsr.umich.edu/web/ICPSR/studies/38087](https://www.icpsr.umich.edu/web/ICPSR/studies/38087). Note that gaining access to these data will require IRB approval and a Data Use Agreement with ICPSR. The existence of these restrictions pertaining to the survey respondents’ geocode data means that we have neither the right nor the desire to publicly disclose these data on GitHub.
 
@@ -29,9 +29,9 @@ For researchers who also want to reproduce the climate data supplement before me
 2. Download data from the following sources:
 
   - Global Historical Climatology Network (GHCN) precipitation data, which are publicly available online from NOAA: [https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)
-- Rainstorm cluster precipitation data, as defined in Wright et al. (2019), available upon request to the authors of that publication.
-- Flood entries from the NOAA storm events database, which are publicly available online from NOAA [https://www.ncdc.noaa.gov/stormevents/](https://www.ncdc.noaa.gov/stormevents/)
-- U.S. Climate Extremes Index, which are publicly available online from NOAA [https://www.ncdc.noaa.gov/extremes/cei/](https://www.ncdc.noaa.gov/extremes/cei/) 
-- FEMA Disaster Declarations for the number of claims and costs for flood disasters, available publicly online [https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2](https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2) 
+-- Rainstorm cluster precipitation data, as defined in Wright et al. (2019), available upon request to the authors of that publication.
+-- Flood entries from the NOAA storm events database, which are publicly available online from NOAA [https://www.ncdc.noaa.gov/stormevents/](https://www.ncdc.noaa.gov/stormevents/)
+-- U.S. Climate Extremes Index, which are publicly available online from NOAA [https://www.ncdc.noaa.gov/extremes/cei/](https://www.ncdc.noaa.gov/extremes/cei/) 
+-- FEMA Disaster Declarations for the number of claims and costs for flood disasters, available publicly online [https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2](https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2) 
 
 3. Run each section of the code to process the climate data and generate the corresponding data columns in the “climate-supplement-for-merge-2016.csv” file.
