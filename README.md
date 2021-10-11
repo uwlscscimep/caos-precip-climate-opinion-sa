@@ -2,7 +2,7 @@
 
 ## Instructions for how to reproduce the analysis
 
-This study involves secondary analysis of public opinion data that has been supplemented with climate data. In order to reproduce the analyses, researchers need access to each of the dataset components: (1) The public opinion survey data, (2) the climate data, and (3) the “key” variable, which, in this case, is the survey respondents’ ZIP codes. The procedure for accessing each component is described below:
+This study involves secondary analysis of public opinion data that has been supplemented with climate data. In order to reproduce the analyses, researchers need access to each of the dataset components: (1) The public opinion survey data, (2) the climate data, and (3) the “key” variable, which, in this case, is the survey respondents’ ZIP codes. The procedure for accessing each component is described below. The files you need can be found in the Data Disclosure folder on this repository.
 
 1. The public opinion data used for this project comes from a nationally-representative survey conducted in 2016 by the American National Election Studies (ANES). It can be freely downloaded at this URL: [https://electionstudies.org/data-center/2016-time-series-study/](https://electionstudies.org/data-center/2016-time-series-study/). 
 
