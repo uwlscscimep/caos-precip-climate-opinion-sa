@@ -7,7 +7,7 @@ This study involves secondary analysis of public opinion data that has been supp
 1. The public opinion data used for this project comes from a nationally-representative survey conducted in 2016 by the American National Election Studies (ANES). It can be freely downloaded at this URL: [https://electionstudies.org/data-center/2016-time-series-study/](https://electionstudies.org/data-center/2016-time-series-study/). 
 
 2. The climate data, which were compiled by researchers at the University of Wisconsin – Madison (the authors of this text) are disclosed freely on this GitHub repository. The name of this file is “climate-data-supplement-for-merge-2106.csv.”
-  -- Researchers who wish to fully recreate the climate data supplement can do so by following the instructions outlined in the “Reproduce the climate supplement” section (see below).
+    1. Researchers who wish to fully recreate the climate data supplement can do so by following the instructions outlined in the “Reproduce the climate supplement” section (see below).
 
 3. The “key” to merge the public opinion data and the climate data. In order to merge the first two components together, researchers will need access to the ANES “2016 restricted geocodes” file, which is available by application: [https://www.icpsr.umich.edu/web/ICPSR/studies/38087](https://www.icpsr.umich.edu/web/ICPSR/studies/38087). Note that gaining access to these data will require IRB approval and a Data Use Agreement with ICPSR. The existence of these restrictions pertaining to the survey respondents’ geocode data means that we have neither the right nor the desire to publicly disclose these data on GitHub.
 
