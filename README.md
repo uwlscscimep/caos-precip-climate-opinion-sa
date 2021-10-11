@@ -28,10 +28,10 @@ For researchers who also want to reproduce the climate data supplement before me
 
 2. Download data from the following sources:
 
-  - Global Historical Climatology Network (GHCN) precipitation data, which are publicly available online from NOAA: [https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)
--- Rainstorm cluster precipitation data, as defined in Wright et al. (2019), available upon request to the authors of that publication.
--- Flood entries from the NOAA storm events database, which are publicly available online from NOAA [https://www.ncdc.noaa.gov/stormevents/](https://www.ncdc.noaa.gov/stormevents/)
--- U.S. Climate Extremes Index, which are publicly available online from NOAA [https://www.ncdc.noaa.gov/extremes/cei/](https://www.ncdc.noaa.gov/extremes/cei/) 
--- FEMA Disaster Declarations for the number of claims and costs for flood disasters, available publicly online [https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2](https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2) 
+    1. Global Historical Climatology Network (GHCN) precipitation data, which are publicly available online from NOAA: [https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)
+    2. Rainstorm cluster precipitation data, as defined in Wright et al. (2019), available upon request to the authors of that publication.
+    3. Flood entries from the NOAA storm events database, which are publicly available online from NOAA [https://www.ncdc.noaa.gov/stormevents/](https://www.ncdc.noaa.gov/stormevents/)
+    4. U.S. Climate Extremes Index, which are publicly available online from NOAA [https://www.ncdc.noaa.gov/extremes/cei/](https://www.ncdc.noaa.gov/extremes/cei/) 
+    5. FEMA Disaster Declarations for the number of claims and costs for flood disasters, available publicly online [https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2](https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2) 
 
 3. Run each section of the code to process the climate data and generate the corresponding data columns in the “climate-supplement-for-merge-2016.csv” file.
